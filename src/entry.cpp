@@ -143,7 +143,7 @@ void OnMumbleIdentityUpdated(void* aEventArgs)
 	spec = Specializations::MumbleIdentToSpecString(MumbleIdentity);
 	coreSpec = Specializations::EliteSpecToCoreSpec(spec);
 	sortedIndicatorsNeedsUpdate = true; // Invalidate cached sorted indicators because the spec has changed
-	APIDefs->Log(ELogLevel::ELogLevel_INFO, "RangeIndicators", std::string("MumbleIdentityUpdated: Spec " + spec + ", CoreSpec " + coreSpec).c_str());
+	//APIDefs->Log(ELogLevel::ELogLevel_INFO, "RangeIndicators", std::string("MumbleIdentityUpdated: Spec " + spec + ", CoreSpec " + coreSpec).c_str());
 }
 
 void OnAddonLoaded(void* aEventArgs)
