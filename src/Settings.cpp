@@ -150,6 +150,11 @@ namespace Settings
 			Settings[IS_HITBOX_VISIBLE].get_to<bool>(IsHitboxVisible);
 		}
 
+		if (!Settings[ALWAYS_SHOW_HITBOX].is_null())
+		{
+			Settings[ALWAYS_SHOW_HITBOX].get_to<bool>(AlwaysShowHitbox);
+		}
+
 		if (!Settings[HITBOX_RGBA].is_null())
 		{
 			Settings[HITBOX_RGBA].get_to<unsigned int>(HitboxRGBA);
