@@ -55,7 +55,10 @@ namespace Specializations {
 	{61, "Spellbreaker"}, {62, "Firebrand"},    {63, "Renegade"},
 	{64, "Harbinger"},    {65, "Willbender"},   {66, "Virtuoso"},
 	{67, "Catalyst"},     {68, "Bladesworn"},   {69, "Vindicator"},
-	{70, "Mechanist"},    {71, "Specter"},      {72, "Untamed"} };
+	{70, "Mechanist"},    {71, "Specter"},      {72, "Untamed"},
+	{73, "Troubadour"},   {74, "Paragon"},      {75, "Amalgam"},
+	{76, "Ritualist"},    {77, "Antiquary"},    {78, "Galeshot"},
+	{79, "Conduit"},      {80, "Evoker"},       {81, "Luminary"}};
 
 	const std::vector<std::string> distinctSpecializationNames = []()
 		{
